@@ -1,0 +1,222 @@
+@font-face {
+    font-family: noto;
+    src: url(../font/NotoSans-Black.ttf);
+    src: url(../font/NotoSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+input:focus {
+    outline: none !important;
+    border: 3px solid #075a9d52;
+    box-shadow: 0 0 10px #719ECE
+}
+
+/*header start-----------------------------------------------------------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96d3e5;
+}
+
+#titleHead {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 30px;
+}
+
+#logoHead {
+    width: 200px;
+}
+
+#searchBar {
+    margin: 30px;
+}
+
+#search {
+    border-color: #075a9d4c;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #07599d;
+}
+
+#searchButton {
+    background-color: white;
+    border-color: #075a9d4c;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #07599d;
+}
+
+::placeholder {
+    color: #07599d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/*header end---------------------------------------------------------------------------------------------------------------------------*/
+/*main start---------------------------------------------------------------------------------------------------------------------------*/
+main {
+    background-image: url(../img/pres-back-pattern.png);
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summary{
+    margin-left: 40px;
+}
+
+main a {
+    color: #07599d;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.article p {
+    height: auto;
+    padding: 20px 50px 200px 50px;
+    font-family: noto, Arial, Helvetica, sans-serif;
+    color: #043862;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.img-left{
+    width: 200px;
+    height: auto;
+    padding: 40px 30px 0 30px;
+    height: auto;
+    margin-left: 20px;
+    float: left;
+    filter: drop-shadow(5px 5px 5px #04386290);
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img-right{
+    width: 200px;
+    height: 240px;
+    padding: 40px 30px 0 30px;
+    height: auto;
+    margin-right: 20px;
+    float: right;
+    filter: drop-shadow(5px 5px 5px #04386290);
+    border-radius:20px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.article:hover .img-right, .article:hover .img-left{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+main h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: noto;
+    color: #043862;
+    font-size: 60px;
+    filter: drop-shadow(5px 5px 5px rgba(4, 23, 51, 0.525));
+}
+
+
+
+main li {
+    list-style-image: url(../img/puce.png);
+    font-family: noto, Arial, Helvetica, sans-serif;
+    color: #043862;
+    padding: 10px;
+}
+
+h3 {
+    margin-left: 50px;
+    font-family: noto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #043862;
+    font-size: 25px;
+}
+
+h4 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: noto;
+    font-size: 20px;
+    color: #043862;
+}
+
+hr {
+    color: #140001;
+}
+/*footer start--------------------------------------------------------------------------------------*/
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: noto;
+}
+
+footer h2 {
+    text-align: center;
+    color: rgb(0, 0, 77);
+}
+
+#networks,
+#legal,
+#contactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#networks img {
+    margin: 20px;
+    filter: drop-shadow(2px 2px 2px #0e435386);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    margin-top: 0;
+}
+
+footer a {
+    color: #07599d;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+footer li {
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+
+/*footer end---------------------------------------------------------------------------------------*/

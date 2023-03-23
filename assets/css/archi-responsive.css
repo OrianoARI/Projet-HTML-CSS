@@ -1,0 +1,174 @@
+@media screen and (max-width: 768px) {
+
+    /*header start------------------------------------------------------------------------------------------*/
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titleHead {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHead {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHead ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navHead li {
+        display: flex;
+        align-items: center;
+    }
+
+    /*header end----------------------------------------------------------------------------------------*/
+    /*main start-------------------------------------------------------------------------------------------*/
+
+    h3,
+    h4 {
+        text-align: center;
+    }
+
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        list-style-position: inside
+    }
+
+/******/
+
+/*main start---------------------------------------------------------------------------------------------------------------------------*/
+main {
+    background-image: url(../img/pres-back-pattern.png);
+    padding-bottom: 30px;
+}
+
+
+main a {
+    color: #07599d;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.summary{
+    margin: 0;
+}
+
+main ul{
+    padding: 0;
+}
+
+.article{
+    padding: 0 50px 0 50px;
+}
+
+.article p {
+    height: auto;
+    padding: 20px 50px 20px 50px;
+    font-family: noto;
+    color: #043862;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.img-left{
+    width: 200px;
+    height: 240px;
+    margin: 0;
+    padding-top: 20px;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px #04386290);
+
+}
+
+.img-right{
+    width: 200px;
+    height: 240px;
+    margin: 0;
+    padding-top: 20px;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px #04386290);
+
+}
+
+
+main h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: noto;
+    color: #043862;
+    font-size: 60px;
+    filter: drop-shadow(5px 5px 5px rgba(4, 23, 51, 0.525));
+}
+
+
+
+main li {
+    list-style-image: url(../img/puce.png);
+    font-family: noto, Arial, Helvetica, sans-serif;
+    color: #043862;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-family: noto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #043862;
+    font-size: 25px;
+}
+
+h4 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: noto;
+    font-size: 20px;
+    color: #043862;
+}
+
+hr {
+    color: #140001;
+}
+
+
+    
+/*footer start---------------------------------------------------------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 0;
+}
+
+#networks img {
+    margin: 20px;
+    
+}
+}
+/*footer end---------------------------------------------------------------------------------------*/
+

@@ -1,0 +1,97 @@
+@media screen and (max-width: 768px) {
+
+    /*header start------------------------------------------------------------------------------------------*/
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titleHead {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHead {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHead ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navHead li {
+        display: flex;
+        align-items: center;
+    }
+
+    /*header end----------------------------------------------------------------------------------------*/
+
+    /*main start-----------------------------------------------------------------------------------------*/
+    .entries {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #entry {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+
+    #languages label {
+        display: flex;
+        width: 10%;
+        padding: 0;
+        font-family: noto, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #075a9d;
+    }
+
+    #send input{
+        text-align: center;
+    }
+
+    /*main end-------------------------------------------------------------------------------------------*/
+
+    /*footer start---------------------------------------------------------------------------------------*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #networks img {
+        margin: 20px;
+
+    }
+
+    /*footer end---------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+}

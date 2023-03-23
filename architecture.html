@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/architecture.css">
+    <link rel="stylesheet" href="assets/css/archi-responsive.css">
+    <title>Architecture du framework</title>
+</head>
+
+<body>
+    <header>
+        <div id="titleHead">
+            <h1><a href="index.html"><img id="logoHead" src="assets/img/logo-flutter.png" alt="Logo FLUTTER"></a></h1>
+        </div>
+        <div id="searchBar">
+            <input id="search" type="search" placeholder="Search...">
+            <button id="searchButton">OK</button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Architecture du Framework</h2>
+            <article class="article">
+                <h3>Les principales composantes de Flutter sont les suivantes:</h3>
+                <div class="summary">
+                    <ul>
+                        <li><a href="#titleOne">La plate-forme Dart</a></li>
+                        <li><a href="#titleTwo">Le Moteur Flutter</a></li>
+                        <li><a href="#titleThree">La Bibliothèque Foundation</a></li>
+                        <li><a href="#titleFour">Les Widgets spécifiques à la conception</a></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section id="mainArticles">
+            <div id="articles">
+                <article class="article">
+                    <h4 id="titleOne">La plate-forme Dart</h4>
+                    <img class="img-left" src="assets/img/logo-dart.png" alt="logo dart">
+                    <p>Les applications Flutter sont écrites en Dart et utilisent de nombreuses fonctionnalités avancées
+                        du langage.
+
+                        Sur Windows, macOS et Linux7 , Flutter est exécuté par la machine virtuelle Dart et dispose d'un
+                        moteur d'exécution just-in-time. Lors de l'écriture et du débogage d'une application, Flutter
+                        utilise la compilation "Just In Time", qui permet de la recharge à chaud (hot reload), avec
+                        laquelle les modifications des fichiers sources peuvent être injectées dans une application en
+                        cours d'exécution. Flutter étend cette possibilité avec la prise en charge de la recharge à
+                        chaud stateful, où dans la plupart des cas les modifications du code source peuvent être
+                        reflétées immédiatement dans l'application en cours d'exécution sans nécessiter de redémarrage
+                        ou de perte d'état8.
+
+                        Afin d'avoir de meilleures performances sur les plateformes Android et iOS, les applications
+                        Flutter sont compilés avec une compilation ahead-of-time (AOT)9.</p>
+                </article>
+                <hr style="border: 2px solid #8dbee65f">
+                <article class="article">
+                    <h4 id="titleTwo">Le moteur de Flutter</h4>
+                    <img class="img-right" src="assets/img/engine.png" alt="gt500 engine">
+                    <p>Le moteur de Flutter, écrit principalement en C++, fournit un support de rendu de bas niveau en
+                        utilisant la bibliothèque graphique Skia de Google. De plus, il s'interface avec des SDK
+                        spécifiques
+                        à la plate-forme, tels que ceux fournis par Android et iOS. Le moteur Flutter est un runtime
+                        portable pour l'hébergement d'applications Flutter. Il met en œuvre les bibliothèques de base de
+                        Flutter, y compris l'animation et les graphiques, les entrées/sorties de fichiers et de réseau,
+                        le
+                        support de l'accessibilité, l'architecture des plugins, et une chaîne d'outils d'exécution et de
+                        compilation Dart. La plupart des développeurs interagissent avec Flutter via le Flutter
+                        Framework,
+                        qui fournit un cadre réactif, et un ensemble de widgets de plate-forme, de mise en page et de
+                        foundation.</p>
+                </article>
+                <hr style="border: 2px solid #8dbee65f">
+                <article class="article">
+                    <h4 id="titleThree">La bibliothèque Foundation</h4>
+                    <img class="img-left" src="assets/img/logo-foundation.png" alt="logo foundation">
+                    <p>La bibliothèque Foundation, écrite en Dart, fournit des classes et des fonctions de base qui sont
+                        utilisées pour construire des applications utilisant Flutter, comme une API pour communiquer
+                        avec le moteur.</p>
+                </article>
+                <hr style="border: 2px solid #8dbee65f">
+                <article class="article">
+                    <h4 id="titleFour">Les Widgets</h4>
+                    <img class="img-right" src="assets/img/flutter-widget.jpg" alt="flutter widgets">
+                    <p>Le Framework Flutter contient deux styles de widgets, les widgets Material Design qui
+                        implémentent le design de Google, et les widgets Cupertino qui implémentent l'interface d'iOS
+                        d'Apple.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <Footer>
+        <div id="networks">
+            <h2>Flutter™ sur les réseaux sociaux</h2>
+            <div id="networksLogo">
+                <a href="https://www.facebook.com/FlutterFrance/?locale=fr_FR"><img src="assets/img/logoFB.png"
+                        alt="logoFB"></a>
+                <a href="https://www.instagram.com/flutter.developers/?hl=fr"><img src="assets/img/logoINS.png"
+                        alt="logoINS"></a>
+                <a href="https://twitter.com/FlutterDev?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                        src="assets/img/logoTW.png" alt="logoTW"></a>
+                <a href="https://www.youtube.com/@flutterdev"><img src="assets/img/logoYT.png" alt="logoYT"></a>
+            </div>
+        </div>
+        <div id="legal">
+            <h2>Mentions legales</h2>
+            <ul>
+                <li><a href="">Politique de confidentialité</a></li>
+                <li><a href="">Cookies</a></li>
+                <li><a href="">Conditions d'utilisation</a></li>
+            </ul>
+        </div>
+        <div id="contactUs">
+            <h2>Nous contacter</h2>
+            <div id="contactForm">
+                <a href="contact-form.html" target="_blank">Formulaire de contact</a>
+            </div>
+        </div>
+    </Footer>
+</body>
+
+</html>
+</body>
+
+</html>

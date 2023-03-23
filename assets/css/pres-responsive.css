@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+
+    /*header start------------------------------------------------------------------------------------------*/
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titleHead {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHead {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHead ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navHead li {
+        display: flex;
+        align-items: center;
+    }
+
+    /*header end----------------------------------------------------------------------------------------*/
+    /*main start-------------------------------------------------------------------------------------------*/
+
+    h3,
+    h4 {
+        text-align: center;
+    }
+
+    .article p {
+
+        padding: 20px 50px 20px 50px;
+    }
+
+    #datas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #use,
+    #apps,
+    #stats {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        list-style-position: inside
+    }
+
+    #datas ul {
+        padding-left: 0;
+    }
+
+
+    /*summary datas start---------------------------------------------------------------*/
+
+    .window {
+      
+        background: linear-gradient(180deg, #07599d, #96d3e5);
+        padding: 20px;
+        align-items: center;
+        border: 5px solid #0438623f;
+        border-radius: 60px;
+    }
+
+    .window h3 {
+        text-align: center;
+    }
+
+    td {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #button {
+        text-align: center;
+    }
+/*summary datas end---------------------------------------------------------------------------------*/
+/*footer start---------------------------------------------------------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 0;
+}
+
+#networks img {
+    margin: 20px;
+    
+}
+}
+/*footer end---------------------------------------------------------------------------------------*/
+
